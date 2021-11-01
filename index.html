@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    button {
+        margin: 20px;
+        padding: 15px;
+        font-size: 40px;
+        background-color: white;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+    button:hover {
+        background-color: whitesmoke;
+    }
+    @keyframes rainbow {
+        0% {background-color: red;}
+        16.6% {background-color: orange;}
+        33.2% {background-color: yellow;}
+        49.8% {background-color: green;}
+        66.4% {background-color: blue;}
+        82.4% {background-color: indigo;}
+        100% {background-color: purple;}
+    }
+</style>
+<head>
+    <title>Etch-a-sketch</title>
+    <meta charset="UTF-8"/>
+    <script src="eas.js" defer></script>
+    <link href="reset.css" rel="stylesheet" type="text/css" media="all"/>
+<body id="body">
+    <div>
+        <button id="reset">Clear</button>
+        <button id="color">Gradient Fluctuation</button>
+    </div>
+</body>
+</head>
+</html>
