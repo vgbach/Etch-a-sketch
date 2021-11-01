@@ -92,7 +92,7 @@ buttonColor.addEventListener("click", () => {
     }
 });
 
-drawBoard(11);
+drawBoard(16);
 
 const buttonReset = document.querySelector("#reset");
 buttonReset.addEventListener("click", () => {
